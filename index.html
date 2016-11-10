@@ -19,8 +19,9 @@
                 font-family: Kranky, serif;
                 font-size: 40px;
                 padding: 1em;
-                padding-bottom: .5em;
+                padding-bottom: .1em;
                 padding-top: .5em;
+                margin-bottom: .10px;
             }
             
             body {
@@ -56,8 +57,21 @@
                 background-color: coral;
                 color: white;
                 font-family: "Life Savers", sans-serif;
-                font-size: 14px;
+                font-size: 17px;
             }
+            
+            #top-row,
+            #middle-row {
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center; 
+            }
+            
+            .leftcol, .rightcol {
+                width: 48%;
+                flex: 1 0 16em;
+            }
+            
         </style>
     </div>
 </head>
@@ -67,7 +81,7 @@
 
         <p><img src="https://www.logomakr.com/07vLTH" alt="Dry Oar boating logo"></p>
 
-        <nav>
+        <nav id="nav">
             <ul>
                 <li><a herf="#">Home</a></li>
                 <li><a herf="#">Rivers</a></li>
@@ -77,7 +91,7 @@
             </ul>
         </nav>
 
-        <section id="sectional">
+        <section id="top-row">
             <div class="leftcol">
                 <h1>We run rivers to relax.</h1>
                 <p> We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love. </p>
@@ -87,7 +101,7 @@
             </div>
         </section>
 
-        <section id="sectional">
+        <section id="middle-row">
             <div class="rightcol">
                 <h2>We run whitewater for the rush!</h2>
                 <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more. </p>

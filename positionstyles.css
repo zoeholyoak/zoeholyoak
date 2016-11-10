@@ -164,15 +164,15 @@
     width: 200px;
     height: 200px;
     background-color: green;
-    float:left
+    float:left;
+    margin: 15px;
 }
 
 .yellow6 {
-    width: 600px;
+    width: 100;
     height: 350px;
     background-color: gold;
-    
-    
+    padding: 15px;  
 }
 
 .blue6 {
