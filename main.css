@@ -32,12 +32,13 @@
        margin: 0 auto;
    }
    
-   #footer {
-       background-color: coral;
+   footer {
+       background-color: cornflowerblue;
    }
    
    #bottom {
-       color: coral;
+       color: white;
+       line-height: 70px
    }
    
    img {
@@ -69,6 +70,7 @@ nav a: link,
 nav a: visited { text-decoration-color: burlywood}
 nav a: active { text-decoration: underline}
 
+
    #top-row,
    #middle-row {
        display: flex;
@@ -81,10 +83,13 @@ nav a: active { text-decoration: underline}
    .rightcol {
        width: 48%;
        flex: 1 0 16em;
+       background-color: antiquewhite;
+       margin-top: 15px; 
    }
    
    .social {
        float: right;
+       background-color: cornflowerblue;
    }
    
    bottom {
