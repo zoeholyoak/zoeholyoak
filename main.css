@@ -1,73 +1,93 @@
    @import url('https://fonts.googleapis.com/css?family=Kranky|Life+Savers|Glass+Antiqua');
-            #sectional {
-                padding: 10px;
-            }
-            
-            h1,
-            h2,
-            h3 {
-                color: cornflowerblue;
-                font-family: Kranky, serif;
-                font-size: 40px;
-                padding: 1em;
-                padding-bottom: .1em;
-                padding-top: .5em;
-                margin-bottom: .10px;
-            }
-            
-            body {
-                font-family: "Glass Antiqua", sans-serif;
-                padding: 1em;
-            }
-            
-            p {
-                color: coral;
-                line-height: 1.2;
-                font-size: 20px;
-            }
-            
-            #content {
-                width: 80%;
-                max-width: 960px;
-                margin: 0 auto;
-            }
-            
-            #footer {
-                background-color: coral;
-            }
-            
-            #bottom {
-                color: white;
-            }
-            
-            img {
-                max-width: 100%;
-            }
-            
-            nav {
-                background-color: coral;
-                color: white;
-                font-family: "Life Savers", sans-serif;
-                font-size: 17px;
-            }
-            
-            #top-row,
-            #middle-row {
-                display: flex;
-                flex-flow: row wrap;
-                align-items: center;
-                justify-content: center;
-            }
-            
-            .leftcol,
-            .rightcol {
-                width: 48%;
-                flex: 1 0 16em;
-            }
-            .social { float: right;
-            }
-            
-            bottom {
-                height: 55px;
-                display: inline-block;
-            }
+   #sectional {
+       padding: 10px;
+   }
+   
+   h1,
+   h2,
+   h3 {
+       color: cornflowerblue;
+       font-family: Kranky, serif;
+       font-size: 40px;
+       padding: 1em;
+       padding-bottom: .1em;
+       padding-top: .5em;
+       margin-bottom: .10px;
+   }
+   
+   body {
+       font-family: "Glass Antiqua", sans-serif;
+       padding: 1em;
+   }
+   
+   p {
+       color: coral;
+       line-height: 1.2;
+       font-size: 20px;
+   }
+   
+   #content {
+       width: 80%;
+       max-width: 960px;
+       margin: 0 auto;
+   }
+   
+   #footer {
+       background-color: coral;
+   }
+   
+   #bottom {
+       color: coral;
+   }
+   
+   img {
+       max-width: 100%;
+   }
+   
+   nav {
+       background-color: coral;
+       color: white;
+       font-family: "Life Savers", sans-serif;
+       font-size: 17px;
+       margin-top: -14px;
+       line-height: 3em;
+       
+   }
+   
+   nav > ul {
+       list-style-type: none;
+       display: flex; 
+       justify-content: space-around; 
+       flex-flow: row wrap;
+   }
+   
+nav li { 
+    flex: 1 0 6em 
+}
+
+nav a: link, 
+nav a: visited { text-decoration-color: burlywood}
+nav a: active { text-decoration: underline}
+
+   #top-row,
+   #middle-row {
+       display: flex;
+       flex-flow: row wrap;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   .leftcol,
+   .rightcol {
+       width: 48%;
+       flex: 1 0 16em;
+   }
+   
+   .social {
+       float: right;
+   }
+   
+   bottom {
+       height: 55px;
+       display: inline-block;
+   }
