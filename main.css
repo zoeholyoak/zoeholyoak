@@ -3,9 +3,9 @@
        padding: 10px;
    }
    
-   h1,
    h2,
-   h3 {
+   h3,
+   h1 {
        color: cornflowerblue;
        font-family: Kranky, serif;
        font-size: 40px;
@@ -24,6 +24,8 @@
        color: coral;
        line-height: 1.2;
        font-size: 20px;
+       padding-left: ;
+       margin-top: 0px;
    }
    
    #content {
@@ -52,25 +54,29 @@
        font-size: 17px;
        margin-top: -14px;
        line-height: 3em;
-       
    }
    
    nav > ul {
        list-style-type: none;
-       display: flex; 
-       justify-content: space-around; 
+       display: flex;
+       justify-content: space-around;
        flex-flow: row wrap;
+       margin-top: 0;
    }
    
-nav li { 
-    flex: 1 0 6em 
-}
-
-nav a: link, 
-nav a: visited { text-decoration-color: burlywood}
-nav a: active { text-decoration: underline}
-
-
+   nav li {
+       flex: 1 0 6em
+   }
+   
+   nav a: link,
+   nav a: visited {
+       text-decoration-color: burlywood
+   }
+   
+   nav a: active {
+       text-decoration: underline
+   }
+   
    #top-row,
    #middle-row {
        display: flex;
@@ -84,7 +90,7 @@ nav a: active { text-decoration: underline}
        width: 48%;
        flex: 1 0 16em;
        background-color: antiquewhite;
-       margin-top: 15px; 
+       margin-top: 15px;
    }
    
    .social {
