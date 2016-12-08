@@ -79,9 +79,9 @@
    }
    
    nav a: active {
-       text-decoration: underline
+       text-decoration: none;
    }
-nav a: hover { text-decoration-color: darkseagreen;
+nav a: hover { text-decoration-color: antiquewhite;
 }
    
    #top-row,
