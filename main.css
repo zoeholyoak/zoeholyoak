@@ -47,6 +47,7 @@
    
    img {
        max-width: 100%;
+       
    }
    
    nav {
@@ -71,14 +72,15 @@
        flex: 1 0 6em
    }
    
-   nav a: link,
-   nav a: visited {
-       text-decoration-color: burlywood;
+   nav a:visited {
+       color: white;
        line-height: 3em;
        padding: 1em .6em; 
    }
    
-   nav a: active {
+a { color: antiquewhite; }
+
+   nav a:active {
        text-decoration: none;
    }
 nav a: hover { text-decoration-color: antiquewhite;
@@ -90,14 +92,16 @@ nav a: hover { text-decoration-color: antiquewhite;
        flex-flow: row wrap;
        align-items: center;
        justify-content: center;
+       background-color: antiquewhite;
+       margin-bottom: 1em;
    }
    
    .leftcol,
    .rightcol {
        width: 48%;
        flex: 1 0 16em;
-       background-color: antiquewhite;
-       margin-top: 15px;
+       margin: 15px;
+       
    }
    
    .social {
@@ -109,3 +113,5 @@ nav a: hover { text-decoration-color: antiquewhite;
        height: 55px;
        display: inline-block;
    }
+
+#logo { padding-bottom: 1em;}
